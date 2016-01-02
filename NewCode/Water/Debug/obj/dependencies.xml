@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\..\..\Users\NB01241\Desktop\water\NewCode\cmsis /I..\..\..\..\..\Users\NB01241\Desktop /I..\..\..\..\..\Users\NB01241\Desktop\water\NewCode /I..\..\..\..\..\Users\NB01241\Desktop\water /I..\..\..\..\..\Users\NB01241\Desktop\water\NewCode\cmsis_lib\include /I..\..\..\..\..\Users\NB01241\Desktop\water\NewCode\cmsis_boot /I..\..\..\..\..\Users\NB01241\Desktop\water\NewCode\cmsis_lib">
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_i2c.c" lastModified="151e7772741">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h" lastModified="151e7765865">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_usart.c" lastModified="151e77689b2">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="151e77647b0">
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="151e7764341">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_i2c.h" lastModified="151e7772723">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f30x.h" lastModified="151e7763562">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_rtc.c" lastModified="151e77773ed">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rtc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h" lastModified="151e7765747">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_adc.c" lastModified="151e77788f8">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_adc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_rtc.h" lastModified="151e77773d4">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\stdio\printf.c" lastModified="151e77649b5">
+      </source>
+      <source file="..\..\..\MAX35101.h" lastModified="151edbb7050">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_spi.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_dma.c" lastModified="151e77757a4">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_dma.h"/>
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="151e7764fff">
+      </source>
+      <source file="..\..\..\main.h" lastModified="15201d0e793">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_spi.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_adc.h" lastModified="151e7778864">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\MAX35101.c" lastModified="15201b00ef7">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
+         <include file="..\..\..\MAX35101.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f30x_temp.c" lastModified="151e7763192">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_spi.c" lastModified="151e7766f21">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="151e77647ab">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_dma.h" lastModified="151e7775794">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f30x.S" lastModified="151e7763134">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_rcc.c" lastModified="151e776587d">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_gpio.c" lastModified="151e776578d">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_spi.h" lastModified="151e7766ef3">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="151e7764746">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_usart.h" lastModified="151e776869d">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f30x.h" lastModified="151e7763188">
+      </source>
+   </includePath>
+</dependencies>

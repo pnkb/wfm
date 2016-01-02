@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=Water.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Water -TC:\CooCox\CoIDE\configuration\ProgramData\Water/arm-gcc-link.ld -g">
+      <target file="Water.elf" lastModified="152020c1137">
+         <source file="..\obj\stm32f30x_rcc.o" lastModified="152020bfbf8"/>
+         <source file="..\obj\stm32f30x_adc.o" lastModified="152020bfd6f"/>
+         <source file="..\obj\stm32f30x_gpio.o" lastModified="152020bfe4a"/>
+         <source file="..\obj\main.o" lastModified="152020bff54"/>
+         <source file="..\obj\stm32f30x_dma.o" lastModified="152020c003e"/>
+         <source file="..\obj\printf.o" lastModified="152020c02bf"/>
+         <source file="..\obj\stm32f30x_spi.o" lastModified="152020c0417"/>
+         <source file="..\obj\stm32f30x_i2c.o" lastModified="152020c054f"/>
+         <source file="..\obj\system_stm32f30x_temp.o" lastModified="152020c060b"/>
+         <source file="..\obj\stm32f30x_rtc.o" lastModified="152020c0792"/>
+         <source file="..\obj\syscalls.o" lastModified="152020c08ba"/>
+         <source file="..\obj\MAX35101.o" lastModified="152020c0966"/>
+         <source file="..\obj\startup_stm32f30x.o" lastModified="152020c09d4"/>
+         <source file="..\obj\stm32f30x_usart.o" lastModified="152020c0b1c"/>
+      </target>
+   </processor>
+</history>

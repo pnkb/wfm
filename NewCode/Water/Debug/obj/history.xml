@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F303VC -DSTM32F30X -IE:\Projects -IE:\Projects\Water\NewCode -IE:\Projects\Water\NewCode\cmsis_lib\include -IE:\Projects\Water\NewCode\cmsis_boot -IE:\Projects\Water\NewCode\cmsis -IE:\Projects\Water -IE:\Projects\Water\NewCode\cmsis_lib">
+      <target file="syscalls.o" lastModified="152020c08ba">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="151e776405f"/>
+      </target>
+      <target file="stm32f30x_usart.o" lastModified="152020c0b1c">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_usart.c" lastModified="151e77689b2"/>
+      </target>
+      <target file="stm32f30x_rtc.o" lastModified="152020c0792">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_rtc.c" lastModified="151e77773ed"/>
+      </target>
+      <target file="stm32f30x_i2c.o" lastModified="152020c054f">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_i2c.c" lastModified="151e7772741"/>
+      </target>
+      <target file="startup_stm32f30x.o" lastModified="152020c09d4">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f30x.S" lastModified="151e7763134"/>
+      </target>
+      <target file="stm32f30x_spi.o" lastModified="152020c0417">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_spi.c" lastModified="151e7766f21"/>
+      </target>
+      <target file="printf.o" lastModified="152020c02bf">
+         <source file="..\..\..\stdio\printf.c" lastModified="151e77641e5"/>
+      </target>
+      <target file="stm32f30x_gpio.o" lastModified="152020bfe4a">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_gpio.c" lastModified="151e776578d"/>
+      </target>
+      <target file="stm32f30x_rcc.o" lastModified="152020bfbf8">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_rcc.c" lastModified="151e776587d"/>
+      </target>
+      <target file="main.o" lastModified="152020bff54">
+         <source file="..\..\..\main.c" lastModified="15201ef3594"/>
+      </target>
+      <target file="stm32f30x_dma.o" lastModified="152020c003e">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_dma.c" lastModified="151e77757a4"/>
+      </target>
+      <target file="stm32f30x_adc.o" lastModified="152020bfd6f">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_adc.c" lastModified="151e77788f8"/>
+      </target>
+      <target file="MAX35101.o" lastModified="152020c0966">
+         <source file="..\..\..\MAX35101.c" lastModified="15201b00ef7"/>
+      </target>
+      <target file="system_stm32f30x_temp.o" lastModified="152020c060b">
+         <source file="..\..\..\cmsis_boot\system_stm32f30x_temp.c" lastModified="151e7763192"/>
+      </target>
+   </processor>
+</history>
